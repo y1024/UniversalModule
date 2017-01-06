@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UniversalModule'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '基础组件.'
 
 # This description is used to generate tags and improve search results.
@@ -29,8 +29,24 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'UniversalModule/Category/**/*'
+
+  s.dependency 'SDWebImage', '~> 3.8.2'
+  s.dependency 'Masonry', '~> 1.0.2'
+  s.dependency 'CocoaSecurity', '~> 1.2.4'
+  s.dependency 'MBProgressHUD', '~> 0.9.2'
+  s.dependency 'Aspects', '~> 1.4.1'
+  s.dependency 'MJRefresh', '~> 3.1.2'
+  s.dependency 'pop', '~> 1.0.9'
+  s.dependency 'GZIP', '~> 1.1.1'
+  s.dependency 'ZXingObjC', '~> 3.1.0'
+  s.dependency 'IQKeyboardManager', '~> 3.3.7'
+  s.dependency 'YTKNetwork', '~> 2.0.3'
+  s.dependency 'MJExtension', '~> 3.0.13'
+  s.dependency 'JSPatchPlatform'
+  s.dependency 'JSPatch/Extensions'
+  s.dependency 'JSPatch/JPCFunction'
+  s.dependency 'ZXingObjC', '~> 3.1.0'
   
   # s.resource_bundles = {
   #   'UniversalModule' => ['UniversalModule/Assets/*.png']

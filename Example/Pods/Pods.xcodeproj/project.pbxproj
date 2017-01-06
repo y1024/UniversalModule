@@ -12,6 +12,12 @@
 		244F080CDED57C0088CF11BFB16E3B52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		52F8B7581E1FC3300061C477 /* NSBundle+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B7561E1FC3300061C477 /* NSBundle+Extension.h */; };
 		52F8B7591E1FC3300061C477 /* NSBundle+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B7571E1FC3300061C477 /* NSBundle+Extension.m */; };
+		52F8B7631E1FC7290061C477 /* UIDevice+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B75B1E1FC7290061C477 /* UIDevice+Extension.h */; };
+		52F8B7641E1FC7290061C477 /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B75C1E1FC7290061C477 /* UIDevice+Extension.m */; };
+		52F8B7651E1FC7290061C477 /* NSObject+LifeCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B75E1E1FC7290061C477 /* NSObject+LifeCircle.h */; };
+		52F8B7661E1FC7290061C477 /* NSObject+LifeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B75F1E1FC7290061C477 /* NSObject+LifeCircle.m */; };
+		52F8B7671E1FC7290061C477 /* NSObject+MethodSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B7611E1FC7290061C477 /* NSObject+MethodSwizzle.h */; };
+		52F8B7681E1FC7290061C477 /* NSObject+MethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B7621E1FC7290061C477 /* NSObject+MethodSwizzle.m */; };
 		5DB83C1C1226E285C0BE01B67A147161 /* Pods-UniversalModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B46E309880B919CD3687782E4BA8951 /* Pods-UniversalModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91AF9A7EE2777E74FAC6B4EEE4895DE5 /* Pods-UniversalModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 144E8F7506369E4DABF9C061AC128869 /* Pods-UniversalModule_Tests-dummy.m */; };
 		9ADA6E357783F744FFCF3C107F876B5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -43,6 +49,12 @@
 		4DB67DEAD7D0E40DE1F8024C320F38AA /* UniversalModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UniversalModule-prefix.pch"; sourceTree = "<group>"; };
 		52F8B7561E1FC3300061C477 /* NSBundle+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Extension.h"; sourceTree = "<group>"; };
 		52F8B7571E1FC3300061C477 /* NSBundle+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Extension.m"; sourceTree = "<group>"; };
+		52F8B75B1E1FC7290061C477 /* UIDevice+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extension.h"; sourceTree = "<group>"; };
+		52F8B75C1E1FC7290061C477 /* UIDevice+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extension.m"; sourceTree = "<group>"; };
+		52F8B75E1E1FC7290061C477 /* NSObject+LifeCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LifeCircle.h"; sourceTree = "<group>"; };
+		52F8B75F1E1FC7290061C477 /* NSObject+LifeCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LifeCircle.m"; sourceTree = "<group>"; };
+		52F8B7611E1FC7290061C477 /* NSObject+MethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MethodSwizzle.h"; sourceTree = "<group>"; };
+		52F8B7621E1FC7290061C477 /* NSObject+MethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodSwizzle.m"; sourceTree = "<group>"; };
 		5C4ADAB817908796F513D83A579FEAB0 /* Pods_UniversalModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9C9B091C3FDD21DC98834D702838D0 /* Pods-UniversalModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniversalModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5ED2DB2A8F8D2E6622D4C891FBD40435 /* Pods-UniversalModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniversalModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -115,6 +127,9 @@
 		52F8B7541E1FC3300061C477 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				52F8B75A1E1FC7290061C477 /* UIDevice+Extension */,
+				52F8B75D1E1FC7290061C477 /* NSObject+LifeCircle */,
+				52F8B7601E1FC7290061C477 /* NSObject+MethodSwizzle */,
 				52F8B7551E1FC3300061C477 /* NSBundle+Extension */,
 			);
 			path = Category;
@@ -127,6 +142,33 @@
 				52F8B7571E1FC3300061C477 /* NSBundle+Extension.m */,
 			);
 			path = "NSBundle+Extension";
+			sourceTree = "<group>";
+		};
+		52F8B75A1E1FC7290061C477 /* UIDevice+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				52F8B75B1E1FC7290061C477 /* UIDevice+Extension.h */,
+				52F8B75C1E1FC7290061C477 /* UIDevice+Extension.m */,
+			);
+			path = "UIDevice+Extension";
+			sourceTree = "<group>";
+		};
+		52F8B75D1E1FC7290061C477 /* NSObject+LifeCircle */ = {
+			isa = PBXGroup;
+			children = (
+				52F8B75E1E1FC7290061C477 /* NSObject+LifeCircle.h */,
+				52F8B75F1E1FC7290061C477 /* NSObject+LifeCircle.m */,
+			);
+			path = "NSObject+LifeCircle";
+			sourceTree = "<group>";
+		};
+		52F8B7601E1FC7290061C477 /* NSObject+MethodSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				52F8B7611E1FC7290061C477 /* NSObject+MethodSwizzle.h */,
+				52F8B7621E1FC7290061C477 /* NSObject+MethodSwizzle.m */,
+			);
+			path = "NSObject+MethodSwizzle";
 			sourceTree = "<group>";
 		};
 		6FF2AF4238DCEC51EEAEEA034705B1DD /* Support Files */ = {
@@ -248,6 +290,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F8B7651E1FC7290061C477 /* NSObject+LifeCircle.h in Headers */,
+				52F8B7631E1FC7290061C477 /* UIDevice+Extension.h in Headers */,
+				52F8B7671E1FC7290061C477 /* NSObject+MethodSwizzle.h in Headers */,
 				5DB83C1C1226E285C0BE01B67A147161 /* Pods-UniversalModule_Example-umbrella.h in Headers */,
 				52F8B7581E1FC3300061C477 /* NSBundle+Extension.h in Headers */,
 			);
@@ -350,6 +395,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				52F8B7591E1FC3300061C477 /* NSBundle+Extension.m in Sources */,
+				52F8B7661E1FC7290061C477 /* NSObject+LifeCircle.m in Sources */,
+				52F8B7681E1FC7290061C477 /* NSObject+MethodSwizzle.m in Sources */,
+				52F8B7641E1FC7290061C477 /* UIDevice+Extension.m in Sources */,
 				B2CAE20DD8CC1EE8F027CA50C0379F44 /* Pods-UniversalModule_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
