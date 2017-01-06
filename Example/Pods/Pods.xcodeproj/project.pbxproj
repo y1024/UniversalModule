@@ -40,6 +40,27 @@
 		52F8B7B31E1FCC070061C477 /* YTKNetworkExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B7A91E1FCC070061C477 /* YTKNetworkExtension.m */; };
 		52F8B7B41E1FCC070061C477 /* YTKPostRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B7AA1E1FCC070061C477 /* YTKPostRequest.h */; };
 		52F8B7B51E1FCC070061C477 /* YTKPostRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B7AB1E1FCC070061C477 /* YTKPostRequest.m */; };
+		52F8B7CC1E1FD1140061C477 /* JBBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B7B81E1FD1140061C477 /* JBBarChartView.h */; };
+		52F8B7CD1E1FD1140061C477 /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B7B91E1FD1140061C477 /* JBBarChartView.m */; };
+		52F8B7CE1E1FD1140061C477 /* JBChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B7BA1E1FD1140061C477 /* JBChartView.h */; };
+		52F8B7CF1E1FD1140061C477 /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B7BB1E1FD1140061C477 /* JBChartView.m */; };
+		52F8B7D01E1FD1140061C477 /* JBLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B7BC1E1FD1140061C477 /* JBLineChartView.h */; };
+		52F8B7D11E1FD1140061C477 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B7BD1E1FD1140061C477 /* JBLineChartView.m */; };
+		52F8B7D21E1FD1140061C477 /* Monitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B7BE1E1FD1140061C477 /* Monitor.h */; };
+		52F8B7D31E1FD1140061C477 /* ServiceMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B7C01E1FD1140061C477 /* ServiceMonitor.h */; };
+		52F8B7D41E1FD1140061C477 /* ServiceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B7C11E1FD1140061C477 /* ServiceMonitor.m */; };
+		52F8B7D51E1FD1140061C477 /* ServiceMonitorCPUModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B7C21E1FD1140061C477 /* ServiceMonitorCPUModel.h */; };
+		52F8B7D61E1FD1140061C477 /* ServiceMonitorCPUModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B7C31E1FD1140061C477 /* ServiceMonitorCPUModel.m */; };
+		52F8B7D71E1FD1140061C477 /* ServiceMonitorFPSModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B7C41E1FD1140061C477 /* ServiceMonitorFPSModel.h */; };
+		52F8B7D81E1FD1140061C477 /* ServiceMonitorFPSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B7C51E1FD1140061C477 /* ServiceMonitorFPSModel.m */; };
+		52F8B7D91E1FD1140061C477 /* ServiceMonitorMemoryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B7C61E1FD1140061C477 /* ServiceMonitorMemoryModel.h */; };
+		52F8B7DA1E1FD1140061C477 /* ServiceMonitorMemoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B7C71E1FD1140061C477 /* ServiceMonitorMemoryModel.m */; };
+		52F8B7DB1E1FD1140061C477 /* ServiceMonitorNetworkModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B7C81E1FD1140061C477 /* ServiceMonitorNetworkModel.h */; };
+		52F8B7DC1E1FD1140061C477 /* ServiceMonitorNetworkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B7C91E1FD1140061C477 /* ServiceMonitorNetworkModel.m */; };
+		52F8B7DD1E1FD1140061C477 /* ServiceMonitorStatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B7CA1E1FD1140061C477 /* ServiceMonitorStatusBar.h */; };
+		52F8B7DE1E1FD1140061C477 /* ServiceMonitorStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B7CB1E1FD1140061C477 /* ServiceMonitorStatusBar.m */; };
+		52F8B7E21E1FD1740061C477 /* UITableView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F8B7E01E1FD1740061C477 /* UITableView+Extension.h */; };
+		52F8B7E31E1FD1740061C477 /* UITableView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F8B7E11E1FD1740061C477 /* UITableView+Extension.m */; };
 		5DB83C1C1226E285C0BE01B67A147161 /* Pods-UniversalModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B46E309880B919CD3687782E4BA8951 /* Pods-UniversalModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91AF9A7EE2777E74FAC6B4EEE4895DE5 /* Pods-UniversalModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 144E8F7506369E4DABF9C061AC128869 /* Pods-UniversalModule_Tests-dummy.m */; };
 		9ADA6E357783F744FFCF3C107F876B5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -99,6 +120,27 @@
 		52F8B7A91E1FCC070061C477 /* YTKNetworkExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkExtension.m; sourceTree = "<group>"; };
 		52F8B7AA1E1FCC070061C477 /* YTKPostRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKPostRequest.h; sourceTree = "<group>"; };
 		52F8B7AB1E1FCC070061C477 /* YTKPostRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKPostRequest.m; sourceTree = "<group>"; };
+		52F8B7B81E1FD1140061C477 /* JBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBarChartView.h; sourceTree = "<group>"; };
+		52F8B7B91E1FD1140061C477 /* JBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBarChartView.m; sourceTree = "<group>"; };
+		52F8B7BA1E1FD1140061C477 /* JBChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartView.h; sourceTree = "<group>"; };
+		52F8B7BB1E1FD1140061C477 /* JBChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartView.m; sourceTree = "<group>"; };
+		52F8B7BC1E1FD1140061C477 /* JBLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartView.h; sourceTree = "<group>"; };
+		52F8B7BD1E1FD1140061C477 /* JBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartView.m; sourceTree = "<group>"; };
+		52F8B7BE1E1FD1140061C477 /* Monitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monitor.h; sourceTree = "<group>"; };
+		52F8B7C01E1FD1140061C477 /* ServiceMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceMonitor.h; sourceTree = "<group>"; };
+		52F8B7C11E1FD1140061C477 /* ServiceMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceMonitor.m; sourceTree = "<group>"; };
+		52F8B7C21E1FD1140061C477 /* ServiceMonitorCPUModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceMonitorCPUModel.h; sourceTree = "<group>"; };
+		52F8B7C31E1FD1140061C477 /* ServiceMonitorCPUModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceMonitorCPUModel.m; sourceTree = "<group>"; };
+		52F8B7C41E1FD1140061C477 /* ServiceMonitorFPSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceMonitorFPSModel.h; sourceTree = "<group>"; };
+		52F8B7C51E1FD1140061C477 /* ServiceMonitorFPSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceMonitorFPSModel.m; sourceTree = "<group>"; };
+		52F8B7C61E1FD1140061C477 /* ServiceMonitorMemoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceMonitorMemoryModel.h; sourceTree = "<group>"; };
+		52F8B7C71E1FD1140061C477 /* ServiceMonitorMemoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceMonitorMemoryModel.m; sourceTree = "<group>"; };
+		52F8B7C81E1FD1140061C477 /* ServiceMonitorNetworkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceMonitorNetworkModel.h; sourceTree = "<group>"; };
+		52F8B7C91E1FD1140061C477 /* ServiceMonitorNetworkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceMonitorNetworkModel.m; sourceTree = "<group>"; };
+		52F8B7CA1E1FD1140061C477 /* ServiceMonitorStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceMonitorStatusBar.h; sourceTree = "<group>"; };
+		52F8B7CB1E1FD1140061C477 /* ServiceMonitorStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceMonitorStatusBar.m; sourceTree = "<group>"; };
+		52F8B7E01E1FD1740061C477 /* UITableView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Extension.h"; sourceTree = "<group>"; };
+		52F8B7E11E1FD1740061C477 /* UITableView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Extension.m"; sourceTree = "<group>"; };
 		5C4ADAB817908796F513D83A579FEAB0 /* Pods_UniversalModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9C9B091C3FDD21DC98834D702838D0 /* Pods-UniversalModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniversalModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5ED2DB2A8F8D2E6622D4C891FBD40435 /* Pods-UniversalModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniversalModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -163,6 +205,7 @@
 		2C7272777D6701FB328E66FA8CF82581 /* UniversalModule */ = {
 			isa = PBXGroup;
 			children = (
+				52F8B7B61E1FD1140061C477 /* Monitor */,
 				52F8B7A01E1FCC070061C477 /* YTKNetworkExtension */,
 				52F8B7541E1FC3300061C477 /* Category */,
 			);
@@ -172,6 +215,7 @@
 		52F8B7541E1FC3300061C477 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				52F8B7DF1E1FD1740061C477 /* UITableView+Extension */,
 				52F8B76E1E1FCB730061C477 /* CocoaSecurity+AES */,
 				52F8B7711E1FCB730061C477 /* UIView+CornerRadius */,
 				52F8B7741E1FCB730061C477 /* UIView+Border */,
@@ -301,6 +345,57 @@
 			path = NetworkExtension;
 			sourceTree = "<group>";
 		};
+		52F8B7B61E1FD1140061C477 /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				52F8B7B71E1FD1140061C477 /* JBChartView */,
+				52F8B7BE1E1FD1140061C477 /* Monitor.h */,
+				52F8B7BF1E1FD1140061C477 /* ServiceMonitor */,
+			);
+			path = Monitor;
+			sourceTree = "<group>";
+		};
+		52F8B7B71E1FD1140061C477 /* JBChartView */ = {
+			isa = PBXGroup;
+			children = (
+				52F8B7B81E1FD1140061C477 /* JBBarChartView.h */,
+				52F8B7B91E1FD1140061C477 /* JBBarChartView.m */,
+				52F8B7BA1E1FD1140061C477 /* JBChartView.h */,
+				52F8B7BB1E1FD1140061C477 /* JBChartView.m */,
+				52F8B7BC1E1FD1140061C477 /* JBLineChartView.h */,
+				52F8B7BD1E1FD1140061C477 /* JBLineChartView.m */,
+			);
+			path = JBChartView;
+			sourceTree = "<group>";
+		};
+		52F8B7BF1E1FD1140061C477 /* ServiceMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				52F8B7C01E1FD1140061C477 /* ServiceMonitor.h */,
+				52F8B7C11E1FD1140061C477 /* ServiceMonitor.m */,
+				52F8B7C21E1FD1140061C477 /* ServiceMonitorCPUModel.h */,
+				52F8B7C31E1FD1140061C477 /* ServiceMonitorCPUModel.m */,
+				52F8B7C41E1FD1140061C477 /* ServiceMonitorFPSModel.h */,
+				52F8B7C51E1FD1140061C477 /* ServiceMonitorFPSModel.m */,
+				52F8B7C61E1FD1140061C477 /* ServiceMonitorMemoryModel.h */,
+				52F8B7C71E1FD1140061C477 /* ServiceMonitorMemoryModel.m */,
+				52F8B7C81E1FD1140061C477 /* ServiceMonitorNetworkModel.h */,
+				52F8B7C91E1FD1140061C477 /* ServiceMonitorNetworkModel.m */,
+				52F8B7CA1E1FD1140061C477 /* ServiceMonitorStatusBar.h */,
+				52F8B7CB1E1FD1140061C477 /* ServiceMonitorStatusBar.m */,
+			);
+			path = ServiceMonitor;
+			sourceTree = "<group>";
+		};
+		52F8B7DF1E1FD1740061C477 /* UITableView+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				52F8B7E01E1FD1740061C477 /* UITableView+Extension.h */,
+				52F8B7E11E1FD1740061C477 /* UITableView+Extension.m */,
+			);
+			path = "UITableView+Extension";
+			sourceTree = "<group>";
+		};
 		6FF2AF4238DCEC51EEAEEA034705B1DD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -422,19 +517,30 @@
 			files = (
 				52F8B79A1E1FCB730061C477 /* UIDevice+Extension.h in Headers */,
 				52F8B7981E1FCB730061C477 /* NSString+AES.h in Headers */,
+				52F8B7E21E1FD1740061C477 /* UITableView+Extension.h in Headers */,
 				52F8B7941E1FCB730061C477 /* NSObject+LifeCircle.h in Headers */,
 				52F8B7921E1FCB730061C477 /* NSBundle+Extension.h in Headers */,
+				52F8B7D91E1FD1140061C477 /* ServiceMonitorMemoryModel.h in Headers */,
+				52F8B7DD1E1FD1140061C477 /* ServiceMonitorStatusBar.h in Headers */,
+				52F8B7CE1E1FD1140061C477 /* JBChartView.h in Headers */,
+				52F8B7DB1E1FD1140061C477 /* ServiceMonitorNetworkModel.h in Headers */,
 				52F8B7B21E1FCC070061C477 /* YTKNetworkExtension.h in Headers */,
 				52F8B7B01E1FCC070061C477 /* YTKGetRequest.h in Headers */,
 				52F8B79E1E1FCB730061C477 /* UIViewController+LifeCircle.h in Headers */,
+				52F8B7CC1E1FD1140061C477 /* JBBarChartView.h in Headers */,
 				52F8B78C1E1FCB730061C477 /* CocoaSecurity+AES.h in Headers */,
 				52F8B79C1E1FCB730061C477 /* UIViewController+HUD.h in Headers */,
+				52F8B7D21E1FD1140061C477 /* Monitor.h in Headers */,
+				52F8B7D51E1FD1140061C477 /* ServiceMonitorCPUModel.h in Headers */,
 				52F8B7AE1E1FCC070061C477 /* UploadSingleImageRequest.h in Headers */,
 				52F8B78E1E1FCB730061C477 /* UIView+CornerRadius.h in Headers */,
 				52F8B7961E1FCB730061C477 /* NSObject+MethodSwizzle.h in Headers */,
 				5DB83C1C1226E285C0BE01B67A147161 /* Pods-UniversalModule_Example-umbrella.h in Headers */,
+				52F8B7D01E1FD1140061C477 /* JBLineChartView.h in Headers */,
 				52F8B7B41E1FCC070061C477 /* YTKPostRequest.h in Headers */,
+				52F8B7D31E1FD1140061C477 /* ServiceMonitor.h in Headers */,
 				52F8B7901E1FCB730061C477 /* UIView+Border.h in Headers */,
+				52F8B7D71E1FD1140061C477 /* ServiceMonitorFPSModel.h in Headers */,
 				52F8B7AC1E1FCC070061C477 /* NESetup.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,19 +641,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F8B7DA1E1FD1140061C477 /* ServiceMonitorMemoryModel.m in Sources */,
+				52F8B7D41E1FD1140061C477 /* ServiceMonitor.m in Sources */,
+				52F8B7CD1E1FD1140061C477 /* JBBarChartView.m in Sources */,
+				52F8B7DC1E1FD1140061C477 /* ServiceMonitorNetworkModel.m in Sources */,
+				52F8B7CF1E1FD1140061C477 /* JBChartView.m in Sources */,
 				52F8B79D1E1FCB730061C477 /* UIViewController+HUD.m in Sources */,
 				52F8B7971E1FCB730061C477 /* NSObject+MethodSwizzle.m in Sources */,
 				52F8B7B51E1FCC070061C477 /* YTKPostRequest.m in Sources */,
+				52F8B7D61E1FD1140061C477 /* ServiceMonitorCPUModel.m in Sources */,
+				52F8B7E31E1FD1740061C477 /* UITableView+Extension.m in Sources */,
 				52F8B7931E1FCB730061C477 /* NSBundle+Extension.m in Sources */,
 				52F8B7911E1FCB730061C477 /* UIView+Border.m in Sources */,
+				52F8B7DE1E1FD1140061C477 /* ServiceMonitorStatusBar.m in Sources */,
 				52F8B7B31E1FCC070061C477 /* YTKNetworkExtension.m in Sources */,
 				B2CAE20DD8CC1EE8F027CA50C0379F44 /* Pods-UniversalModule_Example-dummy.m in Sources */,
 				52F8B7951E1FCB730061C477 /* NSObject+LifeCircle.m in Sources */,
 				52F8B7AF1E1FCC070061C477 /* UploadSingleImageRequest.m in Sources */,
 				52F8B7B11E1FCC070061C477 /* YTKGetRequest.m in Sources */,
 				52F8B79F1E1FCB730061C477 /* UIViewController+LifeCircle.m in Sources */,
+				52F8B7D11E1FD1140061C477 /* JBLineChartView.m in Sources */,
 				52F8B7991E1FCB730061C477 /* NSString+AES.m in Sources */,
 				52F8B7AD1E1FCC070061C477 /* NESetup.m in Sources */,
+				52F8B7D81E1FD1140061C477 /* ServiceMonitorFPSModel.m in Sources */,
 				52F8B78F1E1FCB730061C477 /* UIView+CornerRadius.m in Sources */,
 				52F8B79B1E1FCB730061C477 /* UIDevice+Extension.m in Sources */,
 				52F8B78D1E1FCB730061C477 /* CocoaSecurity+AES.m in Sources */,

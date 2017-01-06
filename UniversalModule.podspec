@@ -36,11 +36,11 @@ TODO: Add long description of the pod here.
 
   end
 
-s.subspec 'YTKNetworkExtension' do |ss|
-ss.source_files = 'UniversalModule/YTKNetworkExtension/**/*'
-ss.public_header_files = 'UniversalModule/YTKNetworkExtension/**/*.h'
+  s.subspec 'YTKNetworkExtension' do |ss|
+  ss.source_files = 'UniversalModule/YTKNetworkExtension/**/*'
+  ss.public_header_files = 'UniversalModule/YTKNetworkExtension/**/*.h'
 
-end
+  end
 
 
 
