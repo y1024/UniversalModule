@@ -25,7 +25,7 @@
 
  @param corner 圆角大小
  */
-- (void)corner:(CGFloat)corner;
+- (void)cornerRadius:(CGFloat)corner;
 
 
 /**
