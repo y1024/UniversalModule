@@ -1,0 +1,16 @@
+PODS:
+  - UniversalModule (0.1.0)
+
+DEPENDENCIES:
+  - UniversalModule (from `../`)
+
+EXTERNAL SOURCES:
+  UniversalModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UniversalModule: 83bf2ab285bbb6e90d8a0dfeaae6e0445057d56e
+
+PODFILE CHECKSUM: 1d8434bd24075ba31618f0aac748dceb03d95104
+
+COCOAPODS: 1.1.1

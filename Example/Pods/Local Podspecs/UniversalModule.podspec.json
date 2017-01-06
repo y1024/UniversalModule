@@ -1,0 +1,22 @@
+{
+  "name": "UniversalModule",
+  "version": "0.1.0",
+  "summary": "A short description of UniversalModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/UniversalModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "杜晓星": "1255322700@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/UniversalModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UniversalModule/Classes/**/*"
+}
