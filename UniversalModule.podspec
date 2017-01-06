@@ -47,6 +47,17 @@ TODO: Add long description of the pod here.
 
 end
 
+  s.subspec 'TTTextView' do |ss|
+  ss.source_files = 'UniversalModule/TTTextView/**/*'
+  ss.public_header_files = 'UniversalModule/TTTextView/**/*.h'
+
+  end
+
+  s.subspec 'RSA' do |ss|
+  ss.source_files = 'UniversalModule/RSA/**/*'
+  ss.public_header_files = 'UniversalModule/RSA/**/*.h'
+
+  end
 
 
 
