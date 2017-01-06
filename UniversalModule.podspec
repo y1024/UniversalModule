@@ -34,8 +34,14 @@ TODO: Add long description of the pod here.
   ss.source_files = 'UniversalModule/Category/**/*'
   ss.public_header_files = 'UniversalModule/Category/**/*.h'
 
-
   end
+
+s.subspec 'YTKNetworkExtension' do |ss|
+ss.source_files = 'UniversalModule/YTKNetworkExtension/**/*'
+ss.public_header_files = 'UniversalModule/YTKNetworkExtension/**/*.h'
+
+end
+
 
 
 
