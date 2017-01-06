@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UniversalModule_Example' do
+  pod 'UniversalModule', :path => '../'
+
+  target 'UniversalModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
