@@ -6,6 +6,15 @@
 //  Copyright © 2016年 emiaobao. All rights reserved.
 //
 
+
+/*
+ 
+ Example 
+ 
+ 
+ 
+ */
+
 #import <CocoaSecurity/CocoaSecurity.h>
 
 @interface CocoaSecurity (AES)

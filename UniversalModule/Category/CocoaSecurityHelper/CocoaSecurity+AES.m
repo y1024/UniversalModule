@@ -10,7 +10,6 @@
 
 @implementation CocoaSecurity (AES)
 
-#pragma mark encryAES
 + (NSString *)encryAESWithSrc:(NSString *)src
 			  key:(NSString *)keyString
 		     ivString:(NSString *)ivString {
@@ -32,7 +31,17 @@
 	return encryptResult.base64;
 }
 
-#pragma mark dencryAES
++ (NSString *)hexASIIWithString:(NSString *)string {
+	NSString *iv = @"";
+	for (int i = 0; i < string.length; i++) {
+		iv = [iv stringByAppendingString:
+			     [NSString
+				 stringWithFormat:@"%x",
+						  [string characterAtIndex:i]]];
+	};
+	return iv;
+}
+
 + (NSString*)dencryAESWithSrc:(NSString*)src key:(NSString*)keyString ivString:(NSString*)ivString {
     NSString *keyHexString = [self hexASIIWithString:keyString];
     NSString *ivHexString = [self hexASIIWithString:ivString];
@@ -47,17 +56,6 @@
     [ivHexStringData subdataWithRange:NSMakeRange(0, 16)];
     CocoaSecurityResult *decryptResult = [CocoaSecurity aesDecryptWithBase64:src key:encryptKeyHexStringData iv:encryptIvHexStringData];
     return decryptResult.utf8String;
-}
-
-+ (NSString *)hexASIIWithString:(NSString *)string {
-    NSString *iv = @"";
-    for (int i = 0; i < string.length; i++) {
-        iv = [iv stringByAppendingString:
-              [NSString
-               stringWithFormat:@"%x",
-               [string characterAtIndex:i]]];
-    };
-    return iv;
 }
 
 
