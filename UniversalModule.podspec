@@ -29,7 +29,15 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'UniversalModule/Category/**/*'
+
+  s.subspec 'Category' do |ss|
+  ss.source_files = 'UniversalModule/Category/**/*'
+  ss.public_header_files = 'UniversalModule/Category/**/*.h'
+
+
+  end
+
+
 
   s.dependency 'SDWebImage', '~> 3.8.2'
   s.dependency 'Masonry', '~> 1.0.2'
