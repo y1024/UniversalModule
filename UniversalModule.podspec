@@ -67,7 +67,7 @@ end
   s.dependency 'CocoaSecurity', '~> 1.2.4'
   s.dependency 'MBProgressHUD', '~> 0.9.2'
   s.dependency 'Aspects', '~> 1.4.1'
-  s.dependency 'MJRefresh', '~> 3.1.2'
+  s.dependency 'MJRefresh', '~> 3.1.12'
   s.dependency 'pop', '~> 1.0.9'
   s.dependency 'GZIP', '~> 1.1.1'
   s.dependency 'ZXingObjC', '~> 3.1.0'
