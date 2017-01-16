@@ -74,9 +74,9 @@ end
   s.dependency 'IQKeyboardManager', '~> 3.3.7'
   s.dependency 'YTKNetwork', '~> 2.0.3'
   s.dependency 'MJExtension', '~> 3.0.13'
-  s.dependency 'JSPatchPlatform'
-  s.dependency 'JSPatch/Extensions'
-  s.dependency 'JSPatch/JPCFunction'
+#  s.dependency 'JSPatchPlatform'
+#  s.dependency 'JSPatch/Extensions'
+#  s.dependency 'JSPatch/JPCFunction'
   s.dependency 'ZXingObjC', '~> 3.1.0'
   
   # s.resource_bundles = {
