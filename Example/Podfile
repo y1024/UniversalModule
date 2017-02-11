@@ -2,6 +2,18 @@ use_frameworks!
 
 target 'UniversalModule_Example' do
   pod 'UniversalModule', :path => '../'
+  pod 'MJExtension'
+  pod 'SDWebImage'
+  pod 'Masonry'
+  pod 'CocoaSecurity'
+  pod 'MBProgressHUD'
+  pod 'Aspects'
+  pod 'MJRefresh'
+  pod 'pop'
+  pod 'GZIP'
+  pod 'ZXingObjC'
+  pod 'IQKeyboardManager'
+  pod 'YTKNetwork'
 
   target 'UniversalModule_Tests' do
     inherit! :search_paths

@@ -7,7 +7,7 @@
 //
 
 #import "UIViewController+LifeCircle.h"
-#import <Aspects.h>
+#import "Aspects.h"
 
 
 @implementation UIViewController (LifeCircle)

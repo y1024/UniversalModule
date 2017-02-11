@@ -7,7 +7,7 @@
 //
 
 #import "YTKNetworkExtension.h"
-#import <MJExtension.h>
+#import "MJExtension.h"
 
 @implementation YTKNetworkExtension
 

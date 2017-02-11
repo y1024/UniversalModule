@@ -8,7 +8,7 @@
 
 #import "UploadSingleImageRequest.h"
 #import "AFNetworking.h"
-#import <GZIP.h>
+#import "GZIP.h"
 
 @implementation UploadSingleImageRequest
 

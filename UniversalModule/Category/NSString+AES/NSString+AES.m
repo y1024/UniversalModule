@@ -7,7 +7,7 @@
 //
 
 #import "NSString+AES.h"
-#import <CocoaSecurity.h>
+#import "CocoaSecurity.h"
 
 @implementation NSString (AES)
 
