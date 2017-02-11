@@ -71,7 +71,7 @@ end
   s.dependency 'pop', '~> 1.0.9'
   s.dependency 'GZIP', '~> 1.1.1'
   s.dependency 'ZXingObjC', '~> 3.1.0'
-  s.dependency 'IQKeyboardManager', '~> 3.3.7'
+  s.dependency 'IQKeyboardManager'
   s.dependency 'YTKNetwork', '~> 2.0.3'
   s.dependency 'MJExtension', '~> 3.0.13'
 #  s.dependency 'JSPatchPlatform'
