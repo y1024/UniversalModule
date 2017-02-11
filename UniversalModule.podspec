@@ -30,34 +30,38 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
+
+  s.public_header_files = 'UniversalModule/UniversalModule.h'
+  s.public_header_files = ''
   s.subspec 'Category' do |ss|
   ss.source_files = 'UniversalModule/Category/**/*'
   ss.public_header_files = 'UniversalModule/Category/**/*.h'
 
   end
 
-  s.subspec 'YTKNetworkExtension' do |ss|
-  ss.source_files = 'UniversalModule/YTKNetworkExtension/**/*'
-  ss.public_header_files = 'UniversalModule/YTKNetworkExtension/**/*.h'
+  # s.subspec 'YTKNetworkExtension' do |ss|
+  # ss.source_files = 'UniversalModule/YTKNetworkExtension/**/*'
+  # ss.public_header_files = 'UniversalModule/YTKNetworkExtension/**/*.h'
 
-  end
-  s.subspec 'Monitor' do |ss|
-  ss.source_files = 'UniversalModule/Monitor/**/*'
-  ss.public_header_files = 'UniversalModule/Monitor/**/*.h'
+  # end
 
-end
+#  s.subspec 'Monitor' do |ss|
+#  ss.source_files = 'UniversalModule/Monitor/**/*'
+#  ss.public_header_files = 'UniversalModule/Monitor/**/*.h'
 
-  s.subspec 'TTTextView' do |ss|
-  ss.source_files = 'UniversalModule/TTTextView/**/*'
-  ss.public_header_files = 'UniversalModule/TTTextView/**/*.h'
+#  end
 
-  end
+  # s.subspec 'TTTextView' do |ss|
+  # ss.source_files = 'UniversalModule/TTTextView/**/*'
+  # ss.public_header_files = 'UniversalModule/TTTextView/**/*.h'
 
-  s.subspec 'RSA' do |ss|
-  ss.source_files = 'UniversalModule/RSA/**/*'
-  ss.public_header_files = 'UniversalModule/RSA/**/*.h'
+  # end
 
-  end
+  # s.subspec 'RSA' do |ss|
+  # ss.source_files = 'UniversalModule/RSA/**/*'
+  # ss.public_header_files = 'UniversalModule/RSA/**/*.h'
+
+  # end
 
 
 
