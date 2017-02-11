@@ -26,8 +26,7 @@
     return ([self height] == 480.0f) && ([self width] == 320.0f);
 }
 
-+ (BOOL)IPhone5SInch;
-{ return ([self height] == 568.0f) && ([self width] == 320.0f); }
++ (BOOL)IPhone5SInch { return ([self height] == 568.0f) && ([self width] == 320.0f); }
 + (BOOL)IPhone6Inch {
     return ([self height] == 667.0f) && ([self width] == 375.0f);
 }

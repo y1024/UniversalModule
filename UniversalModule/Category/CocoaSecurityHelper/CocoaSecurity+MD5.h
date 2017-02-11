@@ -6,7 +6,8 @@
 //  Copyright © 2016年 杜晓星. All rights reserved.
 //
 
-#import <CocoaSecurity/CocoaSecurity.h>
+
+#import "CocoaSecurity.h"
 
 @interface CocoaSecurity (MD5)
 
